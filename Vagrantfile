@@ -4,5 +4,5 @@ Vagrant.configure("2") do |config|
 
 config.vm.network "private_network", ip: "192.168.10.100"
 config.vm.synced_folder "app", "/home/vagrant/app"
-
+config.vm.provision "shell", path: "app/provision.sh"
 end
