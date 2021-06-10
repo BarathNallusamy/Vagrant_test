@@ -24,6 +24,19 @@
 - delete a file from the directory `rm -rf name_of_the_file`
 - delete a folder from the directory `rm -d name_of_the_file`
 
+### Command to check processes
+- `top`
+- `ps`
+
+- To make user admin `sudo su`
+- To check the status of a program `systemctl status program_name`
+- To check stop the program `systemctl stop program_name`
+- To restart the program `systemctl restart program_name`
+
+### Bash Scripting (allows to run saved commands)
+- `#!/bin/bash` first line of bash scripting
+- create a file `nano provision.sh`
+- `chmod` change permission of file 
 
 ## Permissions
 
